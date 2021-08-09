@@ -12,12 +12,12 @@ import org.junit.Test;
  * @author Gabriel
  *
  */
-public class TrianguloTest {
+public class TrapezioTest {
 
 	@Test
-	public void test3And5() {
-		Triangulo t1 = new Triangulo(3.00, 5.00);
-		double expected = 7.500;
+	public void test() {
+		Trapezio t1 = new Trapezio(3.00, 4.00, 5.00);
+		double expected = 17.500;
 		double actual = t1.getArea();
 		assertEquals(expected, actual, 0.001);
 	}
