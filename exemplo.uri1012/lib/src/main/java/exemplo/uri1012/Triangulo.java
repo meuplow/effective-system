@@ -19,7 +19,8 @@ public class Triangulo {
 	/**
 	 * Cria um triângulo retângulo com base <code>base</code> e altura <code>altura</code>.
 	 * 
-	 * @param base a base do novo triângulo e altura a altura do novo triângulo
+	 * @param base a base do novo triângulo
+	 * @param altura a altura do novo triângulo
 	 * @throws IllegalArgumentException
 	 * 			Quando o valor da base é menor ou igual a zero.
 	 * 			Quando o valor da altura é menor ou igual a zero.
